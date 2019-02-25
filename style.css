@@ -1,0 +1,42 @@
+/* ZAIDSYED.COM STYLE.CSS */
+
+/* CSS RESET - shoutout da kid Eric Meyer */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* FONTS */
+@font-face {
+	font-family: "Marvin Visions";
+	src: url("type/MarvinVisionsBig-Bold.woff") format("woff");
+}
+
+body {
+	background: #000;
+	font-family: "Marvin Visions", system, sans-serif;
+	font-size: 3rem;
+	color: #fff;
+	margin: 1in;
+}
+
+span {
+	font-size: 2rem;
+	color: #ccc;
+}
+
+a {
+	text-decoration: none;
+	color: #FA8072;
+}
+
+.links {
+
+}
+
+.links ul li {
+	padding-right: 1rem;
+	display: inline;
+}
+
+.links a {
+	border-bottom: 7.5px solid #FA8072;
+	line-height: 1.4;
+}
