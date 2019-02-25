@@ -10,22 +10,26 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 body {
-	background: #000;
+	background: rgb(234, 135, 118);
 	font-family: "Marvin Visions", system, sans-serif;
 	font-size: 4rem;
 	font-stretch: ultra-expanded;
-	color: #fff;
+	color: rgb(135, 62, 68);
 	margin: 3rem;
 }
 
 span {
 	font-size: 3rem;
-	color: #ccc;
+	color: rgba(255, 255, 255, 0.8);
 }
 
 a {
 	text-decoration: none;
-	color: #FA8072;
+	color: rgba(78, 33, 37, 1);
+}
+
+a:hover {
+	color: rgba(0, 0, 0, 0.8);
 }
 
 .links {
@@ -38,6 +42,6 @@ a {
 }
 
 .links a {
-	border-bottom: 7.5px solid #FA8072;
-	line-height: 1.4;
+	border-bottom: 7.5px solid rgba(78, 33, 37, 1);
+	line-height: 1.3;
 }
