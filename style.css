@@ -13,8 +13,9 @@ body {
 	background: #000;
 	font-family: "Marvin Visions", system, sans-serif;
 	font-size: 3rem;
+	font-stretch: ultra-expanded;
 	color: #fff;
-	margin: 5rem;
+	margin: 3rem;
 }
 
 span {
